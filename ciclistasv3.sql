@@ -41,7 +41,7 @@ CREATE TABLE puerto (
   nompuerto VARCHAR(35) NOT NULL, 
   altura INTEGER, 
   categoria VARCHAR(1), 
-  pendiente DOUBLE FLOAT, 
+  pendiente DOUBLE PRECISION, 
   netapa INTEGER NOT NULL, 
   dorsal INTEGER, 
   PRIMARY KEY (nompuerto)
